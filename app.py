@@ -12,7 +12,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-st.title("📊 Dashboard Monitoring Kekerasan pada Perempuan Dewasa")
+st.title("Dashboard Monitoring Kekerasan pada Perempuan Dewasa Pulau Jawa")
 st.markdown("---")
 
 # ==========================================
@@ -80,15 +80,89 @@ df_filtered = df[(df['Tahun'].isin(selected_tahun)) & (df['Provinsi'].isin(selec
 # --- KOMPONEN 1: RINGKASAN EKSEKUTIF (KPI CARDS) ---
 # Tujuan: Gambaran singkat total beban kasus nasional/regional
 st.subheader("📌Ringkasan Data Jenis Kekerasan Perempuan Dewasa (Kasus)")
-total_seluruh_kasus = df_filtered['Total Kasus'].sum()
+# total_seluruh_kasus = df_filtered['Total Kasus'].sum()
 
-# Layout untuk angka besar (Single Value Cards)
-cols_kpi = st.columns(len(kategori_kekerasan) + 1)
-cols_kpi[0].metric(label="Total", value=f"{total_seluruh_kasus:,}")
+# # Layout untuk angka besar (Single Value Cards)
+# cols_kpi = st.columns(len(kategori_kekerasan) + 1)
+# cols_kpi[0].metric(label="Total", value=f"{total_seluruh_kasus:,}")
 
-for i, kat in enumerate(kategori_kekerasan):
-    total_kat = df_filtered[kat].sum()
-    cols_kpi[i+1].metric(label=f"{kat}", value=f"{total_kat:,}")
+# for i, kat in enumerate(kategori_kekerasan):
+#     total_kat = df_filtered[kat].sum()
+#     cols_kpi[i+1].metric(label=f"{kat}", value=f"{total_kat:,}")
+
+# 1. Kustomisasi CSS untuk memberikan garis pembatas (boundaries) pada KPI Card
+st.markdown("""
+    <style>
+    div[data-testid="stMetricValue"] {
+        font-size: 28px;
+        font-weight: bold;
+        color: #2c3e50;
+    }
+    div[data-testid="metric-container"] {
+        background-color: #f8f9fa;
+        border: 2px solid #e2e8f0;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+    }
+    </style>
+""", unsafe_allow_html=True)
+
+# 2. Formulasi Matematis Dinamis (Adaptif Terhadap Filter Lokasi)
+if not df_filtered.empty:
+    # A. Total Seluruh Kasus
+    total_seluruh_kasus = df_filtered['Total Kasus'].sum()
+    
+    # B. LOGIKA ADAPTIF UNTUK FILTER LOKASI (Provinsi vs Kabupaten)
+    # Memeriksa berapa banyak provinsi yang sedang aktif di filter
+    jumlah_provinsi_terfilter = len(df_filtered['Provinsi'].unique())
+    
+    if jumlah_provinsi_terfilter > 1:
+        # Kondisi Banyak Provinsi: Cari Provinsi Tertinggi
+        df_prov_top = df_filtered.groupby('Provinsi')['Total Kasus'].sum().reset_index()
+        idx_max_prov = df_prov_top['Total Kasus'].idxmax()
+        provinsi_tertinggi = df_prov_top.loc[idx_max_prov, 'Provinsi']
+        kasus_prov_tertinggi = df_prov_top.loc[idx_max_prov, 'Total Kasus']
+        
+        label_kpi2 = "👑 Provinsi Kasus Tertinggi"
+        val_kpi2 = f"{provinsi_tertinggi} ({kasus_prov_tertinggi:,})"
+    else:
+        # Kondisi 1 Provinsi: Cari Kabupaten/Kota Tertinggi di Provinsi Tersebut
+        df_kab_top = df_filtered.groupby('Kabupaten/Kota')['Total Kasus'].sum().reset_index()
+        idx_max_kab = df_kab_top['Total Kasus'].idxmax()
+        kabupaten_tertinggi = df_kab_top.loc[idx_max_kab, 'Kabupaten/Kota']
+        kasus_kab_tertinggi = df_kab_top.loc[idx_max_kab, 'Total Kasus']
+        
+        # Mengambil nama provinsi tunggal yang sedang dipilih untuk label
+        provinsi_aktif = df_filtered['Provinsi'].iloc[0]
+        label_kpi2 = f"🏅 Kab/Kota Tertinggi di {provinsi_aktif}"
+        val_kpi2 = f"{kabupaten_tertinggi} ({kasus_kab_tertinggi:,})"
+
+    # C. Mencari Jenis Kekerasan Paling Dominan
+    df_kat_top = df_filtered[kategori_kekerasan].sum().reset_index()
+    df_kat_top.columns = ['Jenis Kekerasan', 'Total']
+    idx_max_kat = df_kat_top['Total'].idxmax()
+    kekerasan_dominan = df_kat_top.loc[idx_max_kat, 'Jenis Kekerasan']
+    kasus_kat_dominan = df_kat_top.loc[idx_max_kat, 'Total']
+    val_kekerasan_dominan = f"{kekerasan_dominan} ({kasus_kat_dominan:,})"
+else:
+    total_seluruh_kasus = 0
+    label_kpi2 = "👑 Provinsi Kasus Tertinggi"
+    val_kpi2 = "-"
+    val_kekerasan_dominan = "-"
+
+# 3. Representasi Visual Grid Card
+col_kpi1, col_kpi2, col_kpi3 = st.columns(3)
+
+with col_kpi1:
+    st.metric(label="📊 Total Seluruh Kasus", value=f"{total_seluruh_kasus:,}")
+
+with col_kpi2:
+    # Label dan Value sekarang bersifat dinamis mengikuti aturan kondisional di atas
+    st.metric(label=label_kpi2, value=val_kpi2)
+
+with col_kpi3:
+    st.metric(label="⚠️ Jenis Kekerasan Dominan", value=val_kekerasan_dominan)
 
 st.markdown("---")
 
@@ -189,7 +263,7 @@ with col_pareto:
     # --- KOMPONEN 5: PERINGKAT WILAYAH / ANALISIS PARETO (HORIZONTAL BAR CHART) ---
     # Tujuan: Mengidentifikasi Top Kabupaten/Kota untuk efisiensi monitoring
     st.subheader("📊 Peringkat Wilayah")
-    df_pareto = df_filtered.groupby('Kabupaten/Kota')['Total Kasus'].sum().sort_values(ascending=True).reset_index()
+    df_pareto = df_filtered.groupby('Kabupaten/Kota')['Total Kasus'].sum().sort_values(ascending=True).tail(10).reset_index()
     
     fig_pareto = px.bar(df_pareto, x='Total Kasus', y='Kabupaten/Kota', orientation='h',
                         color='Total Kasus', color_continuous_scale=px.colors.sequential.Jet,
