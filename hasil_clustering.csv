@@ -1,0 +1,301 @@
+No,Provinsi,Tahun,Kabupaten/Kota,Satuan,Fisik,Psikis,Seksual,Eksploitasi,TPPO,Penelantaran,Cluster,Cluster_Label
+1.0,Jawa Tengah,2022.0,KABUPATEN CILACAP,Orang,2.0,5.0,6.0,1.0,0.0,0.0,0,Kerentanan Relatif Rendah
+2.0,Jawa Tengah,2022.0,KABUPATEN BANYUMAS,Orang,12.0,13.0,8.0,2.0,1.0,3.0,0,Kerentanan Relatif Rendah
+3.0,Jawa Tengah,2022.0,KABUPATEN PURBALINGGA,Orang,7.0,5.0,9.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+4.0,Jawa Tengah,2022.0,KABUPATEN BANJARNEGARA,Orang,4.0,9.0,4.0,0.0,0.0,3.0,0,Kerentanan Relatif Rendah
+5.0,Jawa Tengah,2022.0,KABUPATEN KEBUMEN,Orang,31.0,20.0,18.0,0.0,0.0,2.0,0,Kerentanan Relatif Rendah
+6.0,Jawa Tengah,2022.0,KABUPATEN PURWOREJO,Orang,5.0,21.0,4.0,0.0,0.0,6.0,0,Kerentanan Relatif Rendah
+7.0,Jawa Tengah,2022.0,KABUPATEN WONOSOBO,Orang,14.0,52.0,11.0,0.0,0.0,12.0,1,Kerentanan Tinggi
+8.0,Jawa Tengah,2022.0,KABUPATEN MAGELANG,Orang,7.0,21.0,10.0,0.0,0.0,6.0,0,Kerentanan Relatif Rendah
+9.0,Jawa Tengah,2022.0,KABUPATEN BOYOLALI,Orang,10.0,17.0,6.0,0.0,0.0,7.0,0,Kerentanan Relatif Rendah
+10.0,Jawa Tengah,2022.0,KABUPATEN KLATEN,Orang,8.0,15.0,4.0,3.0,0.0,5.0,0,Kerentanan Relatif Rendah
+11.0,Jawa Tengah,2022.0,KABUPATEN SUKOHARJO,Orang,20.0,7.0,8.0,0.0,0.0,7.0,0,Kerentanan Relatif Rendah
+12.0,Jawa Tengah,2022.0,KABUPATEN WONOGIRI,Orang,3.0,2.0,6.0,0.0,0.0,1.0,0,Kerentanan Relatif Rendah
+13.0,Jawa Tengah,2022.0,KABUPATEN KARANGANYAR,Orang,14.0,2.0,4.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+14.0,Jawa Tengah,2022.0,KABUPATEN SRAGEN,Orang,4.0,2.0,0.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+15.0,Jawa Tengah,2022.0,KABUPATEN GROBOGAN,Orang,8.0,5.0,10.0,0.0,0.0,1.0,0,Kerentanan Relatif Rendah
+16.0,Jawa Tengah,2022.0,KABUPATEN BLORA,Orang,4.0,1.0,0.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+17.0,Jawa Tengah,2022.0,KABUPATEN REMBANG,Orang,4.0,2.0,2.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+18.0,Jawa Tengah,2022.0,KABUPATEN PATI,Orang,16.0,1.0,1.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+19.0,Jawa Tengah,2022.0,KABUPATEN KUDUS,Orang,3.0,5.0,2.0,0.0,0.0,2.0,0,Kerentanan Relatif Rendah
+20.0,Jawa Tengah,2022.0,KABUPATEN JEPARA,Orang,11.0,3.0,2.0,0.0,0.0,1.0,0,Kerentanan Relatif Rendah
+21.0,Jawa Tengah,2022.0,KABUPATEN DEMAK,Orang,27.0,14.0,0.0,0.0,0.0,9.0,0,Kerentanan Relatif Rendah
+22.0,Jawa Tengah,2022.0,KABUPATEN SEMARANG,Orang,50.0,4.0,8.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+23.0,Jawa Tengah,2022.0,KABUPATEN TEMANGGUNG,Orang,5.0,6.0,2.0,0.0,0.0,1.0,0,Kerentanan Relatif Rendah
+24.0,Jawa Tengah,2022.0,KABUPATEN KENDAL,Orang,17.0,16.0,5.0,0.0,0.0,1.0,0,Kerentanan Relatif Rendah
+25.0,Jawa Tengah,2022.0,KABUPATEN BATANG,Orang,8.0,3.0,1.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+26.0,Jawa Tengah,2022.0,KABUPATEN PEKALONGAN,Orang,12.0,32.0,4.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+27.0,Jawa Tengah,2022.0,KABUPATEN PEMALANG,Orang,24.0,4.0,3.0,1.0,0.0,0.0,0,Kerentanan Relatif Rendah
+28.0,Jawa Tengah,2022.0,KABUPATEN TEGAL,Orang,24.0,29.0,5.0,0.0,0.0,7.0,0,Kerentanan Relatif Rendah
+29.0,Jawa Tengah,2022.0,KABUPATEN BREBES,Orang,11.0,15.0,13.0,2.0,0.0,2.0,0,Kerentanan Relatif Rendah
+30.0,Jawa Tengah,2022.0,KOTA MAGELANG,Orang,5.0,0.0,0.0,0.0,0.0,2.0,0,Kerentanan Relatif Rendah
+31.0,Jawa Tengah,2022.0,KOTA SURAKARTA,Orang,10.0,13.0,7.0,0.0,0.0,4.0,0,Kerentanan Relatif Rendah
+32.0,Jawa Tengah,2022.0,KOTA SALATIGA,Orang,8.0,6.0,4.0,0.0,0.0,2.0,0,Kerentanan Relatif Rendah
+33.0,Jawa Tengah,2022.0,KOTA SEMARANG,Orang,119.0,56.0,29.0,0.0,1.0,26.0,1,Kerentanan Tinggi
+34.0,Jawa Tengah,2022.0,KOTA PEKALONGAN,Orang,10.0,15.0,2.0,0.0,0.0,5.0,0,Kerentanan Relatif Rendah
+35.0,Jawa Tengah,2022.0,KOTA TEGAL,Orang,5.0,3.0,4.0,0.0,0.0,2.0,0,Kerentanan Relatif Rendah
+36.0,Jawa Barat,2022.0,KABUPATEN BOGOR,Orang,9.0,8.0,2.0,0.0,0.0,2.0,0,Kerentanan Relatif Rendah
+37.0,Jawa Barat,2022.0,KABUPATEN SUKABUMI,Orang,12.0,10.0,8.0,0.0,35.0,0.0,3,Prioritas TPPO
+38.0,Jawa Barat,2022.0,KABUPATEN CIANJUR,Orang,14.0,10.0,9.0,1.0,14.0,3.0,0,Kerentanan Relatif Rendah
+39.0,Jawa Barat,2022.0,KABUPATEN BANDUNG,Orang,37.0,24.0,11.0,0.0,2.0,12.0,1,Kerentanan Tinggi
+40.0,Jawa Barat,2022.0,KABUPATEN GARUT,Orang,3.0,6.0,1.0,0.0,0.0,1.0,0,Kerentanan Relatif Rendah
+41.0,Jawa Barat,2022.0,KABUPATEN TASIKMALAYA,Orang,7.0,3.0,8.0,0.0,1.0,0.0,0,Kerentanan Relatif Rendah
+42.0,Jawa Barat,2022.0,KABUPATEN CIAMIS,Orang,2.0,1.0,0.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+43.0,Jawa Barat,2022.0,KABUPATEN KUNINGAN,Orang,3.0,2.0,2.0,0.0,0.0,4.0,0,Kerentanan Relatif Rendah
+44.0,Jawa Barat,2022.0,KABUPATEN CIREBON,Orang,7.0,2.0,14.0,0.0,1.0,0.0,0,Kerentanan Relatif Rendah
+45.0,Jawa Barat,2022.0,KABUPATEN MAJALENGKA,Orang,3.0,0.0,0.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+46.0,Jawa Barat,2022.0,KABUPATEN SUMEDANG,Orang,1.0,2.0,0.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+47.0,Jawa Barat,2022.0,KABUPATEN INDRAMAYU,Orang,7.0,7.0,3.0,0.0,0.0,1.0,0,Kerentanan Relatif Rendah
+48.0,Jawa Barat,2022.0,KABUPATEN SUBANG,Orang,2.0,1.0,0.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+49.0,Jawa Barat,2022.0,KABUPATEN PURWAKARTA,Orang,8.0,11.0,3.0,0.0,0.0,2.0,0,Kerentanan Relatif Rendah
+50.0,Jawa Barat,2022.0,KABUPATEN KARAWANG,Orang,21.0,8.0,10.0,0.0,1.0,3.0,0,Kerentanan Relatif Rendah
+51.0,Jawa Barat,2022.0,KABUPATEN BEKASI,Orang,46.0,58.0,12.0,0.0,2.0,10.0,1,Kerentanan Tinggi
+52.0,Jawa Barat,2022.0,KABUPATEN BANDUNG BARAT,Orang,14.0,12.0,4.0,0.0,0.0,3.0,0,Kerentanan Relatif Rendah
+53.0,Jawa Barat,2022.0,KABUPATEN PANGANDARAN,Orang,4.0,1.0,1.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+54.0,Jawa Barat,2022.0,KOTA BOGOR,Orang,23.0,32.0,4.0,0.0,0.0,8.0,0,Kerentanan Relatif Rendah
+55.0,Jawa Barat,2022.0,KOTA SUKABUMI,Orang,4.0,3.0,3.0,2.0,0.0,0.0,0,Kerentanan Relatif Rendah
+56.0,Jawa Barat,2022.0,KOTA BANDUNG,Orang,96.0,166.0,49.0,3.0,0.0,54.0,2,Kerentanan Sangat Tinggi
+57.0,Jawa Barat,2022.0,KOTA CIREBON,Orang,0.0,1.0,0.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+58.0,Jawa Barat,2022.0,KOTA BEKASI,Orang,2.0,1.0,1.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+59.0,Jawa Barat,2022.0,KOTA DEPOK,Orang,34.0,51.0,14.0,0.0,0.0,8.0,1,Kerentanan Tinggi
+60.0,Jawa Barat,2022.0,KOTA CIMAHI,Orang,5.0,9.0,1.0,1.0,0.0,9.0,0,Kerentanan Relatif Rendah
+61.0,Jawa Barat,2022.0,KOTA TASIKMALAYA,Orang,0.0,0.0,0.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+62.0,Jawa Barat,2022.0,KOTA BANJAR,Orang,0.0,0.0,0.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+63.0,Jawa Timur,2022.0,KABUPATEN PACITAN,Orang,0.0,0.0,0.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+64.0,Jawa Timur,2022.0,KABUPATEN PONOROGO,Orang,5.0,7.0,2.0,0.0,0.0,5.0,0,Kerentanan Relatif Rendah
+65.0,Jawa Timur,2022.0,KABUPATEN TRENGGALEK,Orang,3.0,3.0,4.0,0.0,0.0,4.0,0,Kerentanan Relatif Rendah
+66.0,Jawa Timur,2022.0,KABUPATEN TULUNGAGUNG,Orang,17.0,7.0,9.0,1.0,1.0,2.0,0,Kerentanan Relatif Rendah
+67.0,Jawa Timur,2022.0,KABUPATEN BLITAR,Orang,7.0,15.0,3.0,0.0,0.0,2.0,0,Kerentanan Relatif Rendah
+68.0,Jawa Timur,2022.0,KABUPATEN KEDIRI,Orang,33.0,1.0,2.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+69.0,Jawa Timur,2022.0,KABUPATEN MALANG,Orang,8.0,20.0,13.0,0.0,0.0,4.0,0,Kerentanan Relatif Rendah
+70.0,Jawa Timur,2022.0,KABUPATEN LUMAJANG,Orang,9.0,6.0,3.0,0.0,0.0,1.0,0,Kerentanan Relatif Rendah
+71.0,Jawa Timur,2022.0,KABUPATEN JEMBER,Orang,17.0,83.0,37.0,0.0,0.0,8.0,1,Kerentanan Tinggi
+72.0,Jawa Timur,2022.0,KABUPATEN BANYUWANGI,Orang,14.0,7.0,7.0,0.0,0.0,4.0,0,Kerentanan Relatif Rendah
+73.0,Jawa Timur,2022.0,KABUPATEN BONDOWOSO,Orang,13.0,0.0,9.0,1.0,0.0,11.0,0,Kerentanan Relatif Rendah
+74.0,Jawa Timur,2022.0,KABUPATEN SITUBONDO,Orang,28.0,12.0,9.0,0.0,0.0,3.0,0,Kerentanan Relatif Rendah
+75.0,Jawa Timur,2022.0,KABUPATEN PROBOLINGGO,Orang,37.0,37.0,3.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+76.0,Jawa Timur,2022.0,KABUPATEN PASURUAN,Orang,9.0,5.0,7.0,0.0,0.0,8.0,0,Kerentanan Relatif Rendah
+77.0,Jawa Timur,2022.0,KABUPATEN SIDOARJO,Orang,34.0,70.0,11.0,0.0,0.0,32.0,1,Kerentanan Tinggi
+78.0,Jawa Timur,2022.0,KABUPATEN MOJOKERTO,Orang,6.0,10.0,2.0,0.0,1.0,2.0,0,Kerentanan Relatif Rendah
+79.0,Jawa Timur,2022.0,KABUPATEN JOMBANG,Orang,8.0,6.0,8.0,0.0,0.0,3.0,0,Kerentanan Relatif Rendah
+80.0,Jawa Timur,2022.0,KABUPATEN NGANJUK,Orang,2.0,10.0,2.0,0.0,0.0,1.0,0,Kerentanan Relatif Rendah
+81.0,Jawa Timur,2022.0,KABUPATEN MADIUN,Orang,0.0,0.0,4.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+82.0,Jawa Timur,2022.0,KABUPATEN MAGETAN,Orang,6.0,9.0,6.0,0.0,0.0,6.0,0,Kerentanan Relatif Rendah
+83.0,Jawa Timur,2022.0,KABUPATEN NGAWI,Orang,1.0,5.0,5.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+84.0,Jawa Timur,2022.0,KABUPATEN BOJONEGORO,Orang,1.0,3.0,0.0,0.0,0.0,2.0,0,Kerentanan Relatif Rendah
+85.0,Jawa Timur,2022.0,KABUPATEN TUBAN,Orang,29.0,20.0,4.0,0.0,0.0,4.0,0,Kerentanan Relatif Rendah
+86.0,Jawa Timur,2022.0,KABUPATEN LAMONGAN,Orang,30.0,11.0,5.0,0.0,0.0,5.0,0,Kerentanan Relatif Rendah
+87.0,Jawa Timur,2022.0,KABUPATEN GRESIK,Orang,17.0,23.0,4.0,2.0,0.0,2.0,0,Kerentanan Relatif Rendah
+88.0,Jawa Timur,2022.0,KABUPATEN BANGKALAN,Orang,13.0,9.0,3.0,0.0,0.0,1.0,0,Kerentanan Relatif Rendah
+89.0,Jawa Timur,2022.0,KABUPATEN SAMPANG,Orang,6.0,0.0,2.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+90.0,Jawa Timur,2022.0,KABUPATEN PAMEKASAN,Orang,24.0,1.0,0.0,0.0,0.0,8.0,0,Kerentanan Relatif Rendah
+91.0,Jawa Timur,2022.0,KABUPATEN SUMENEP,Orang,18.0,18.0,2.0,0.0,0.0,8.0,0,Kerentanan Relatif Rendah
+92.0,Jawa Timur,2022.0,KOTA KEDIRI,Orang,0.0,1.0,2.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+93.0,Jawa Timur,2022.0,KOTA BLITAR,Orang,6.0,12.0,0.0,0.0,0.0,3.0,0,Kerentanan Relatif Rendah
+94.0,Jawa Timur,2022.0,KOTA MALANG,Orang,9.0,11.0,5.0,1.0,0.0,1.0,0,Kerentanan Relatif Rendah
+95.0,Jawa Timur,2022.0,KOTA PROBOLINGGO,Orang,11.0,7.0,0.0,0.0,0.0,3.0,0,Kerentanan Relatif Rendah
+96.0,Jawa Timur,2022.0,KOTA PASURUAN,Orang,11.0,11.0,0.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+97.0,Jawa Timur,2022.0,KOTA MOJOKERTO,Orang,9.0,2.0,2.0,0.0,1.0,0.0,0,Kerentanan Relatif Rendah
+98.0,Jawa Timur,2022.0,KOTA MADIUN,Orang,1.0,1.0,1.0,0.0,0.0,3.0,0,Kerentanan Relatif Rendah
+99.0,Jawa Timur,2022.0,KOTA SURABAYA,Orang,20.0,13.0,10.0,0.0,0.0,6.0,0,Kerentanan Relatif Rendah
+100.0,Jawa Timur,2022.0,KOTA BATU,Orang,1.0,1.0,2.0,0.0,0.0,2.0,0,Kerentanan Relatif Rendah
+101.0,Jawa Tengah,2023.0,KABUPATEN CILACAP,Orang,8.0,8.0,11.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+102.0,Jawa Tengah,2023.0,KABUPATEN BANYUMAS,Orang,22.0,19.0,11.0,1.0,5.0,5.0,0,Kerentanan Relatif Rendah
+103.0,Jawa Tengah,2023.0,KABUPATEN PURBALINGGA,Orang,8.0,1.0,3.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+104.0,Jawa Tengah,2023.0,KABUPATEN BANJARNEGARA,Orang,4.0,5.0,1.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+105.0,Jawa Tengah,2023.0,KABUPATEN KEBUMEN,Orang,23.0,8.0,11.0,1.0,0.0,2.0,0,Kerentanan Relatif Rendah
+106.0,Jawa Tengah,2023.0,KABUPATEN PURWOREJO,Orang,9.0,19.0,4.0,0.0,0.0,8.0,0,Kerentanan Relatif Rendah
+107.0,Jawa Tengah,2023.0,KABUPATEN WONOSOBO,Orang,22.0,58.0,9.0,0.0,0.0,21.0,1,Kerentanan Tinggi
+108.0,Jawa Tengah,2023.0,KABUPATEN MAGELANG,Orang,22.0,71.0,26.0,0.0,0.0,29.0,1,Kerentanan Tinggi
+109.0,Jawa Tengah,2023.0,KABUPATEN BOYOLALI,Orang,11.0,13.0,4.0,0.0,0.0,2.0,0,Kerentanan Relatif Rendah
+110.0,Jawa Tengah,2023.0,KABUPATEN KLATEN,Orang,4.0,5.0,0.0,0.0,0.0,4.0,0,Kerentanan Relatif Rendah
+111.0,Jawa Tengah,2023.0,KABUPATEN SUKOHARJO,Orang,19.0,3.0,4.0,0.0,0.0,3.0,0,Kerentanan Relatif Rendah
+112.0,Jawa Tengah,2023.0,KABUPATEN WONOGIRI,Orang,0.0,2.0,0.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+113.0,Jawa Tengah,2023.0,KABUPATEN KARANGANYAR,Orang,9.0,7.0,5.0,0.0,0.0,3.0,0,Kerentanan Relatif Rendah
+114.0,Jawa Tengah,2023.0,KABUPATEN SRAGEN,Orang,15.0,3.0,3.0,0.0,0.0,1.0,0,Kerentanan Relatif Rendah
+115.0,Jawa Tengah,2023.0,KABUPATEN GROBOGAN,Orang,8.0,4.0,4.0,3.0,0.0,0.0,0,Kerentanan Relatif Rendah
+116.0,Jawa Tengah,2023.0,KABUPATEN BLORA,Orang,2.0,0.0,2.0,0.0,0.0,1.0,0,Kerentanan Relatif Rendah
+117.0,Jawa Tengah,2023.0,KABUPATEN REMBANG,Orang,1.0,2.0,1.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+118.0,Jawa Tengah,2023.0,KABUPATEN PATI,Orang,13.0,2.0,2.0,0.0,0.0,2.0,0,Kerentanan Relatif Rendah
+119.0,Jawa Tengah,2023.0,KABUPATEN KUDUS,Orang,2.0,0.0,1.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+120.0,Jawa Tengah,2023.0,KABUPATEN JEPARA,Orang,14.0,9.0,5.0,0.0,0.0,3.0,0,Kerentanan Relatif Rendah
+121.0,Jawa Tengah,2023.0,KABUPATEN DEMAK,Orang,25.0,20.0,7.0,0.0,0.0,11.0,0,Kerentanan Relatif Rendah
+122.0,Jawa Tengah,2023.0,KABUPATEN SEMARANG,Orang,63.0,7.0,5.0,0.0,0.0,3.0,0,Kerentanan Relatif Rendah
+123.0,Jawa Tengah,2023.0,KABUPATEN TEMANGGUNG,Orang,2.0,2.0,1.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+124.0,Jawa Tengah,2023.0,KABUPATEN KENDAL,Orang,19.0,13.0,3.0,0.0,0.0,6.0,0,Kerentanan Relatif Rendah
+125.0,Jawa Tengah,2023.0,KABUPATEN BATANG,Orang,3.0,3.0,12.0,0.0,0.0,2.0,0,Kerentanan Relatif Rendah
+126.0,Jawa Tengah,2023.0,KABUPATEN PEKALONGAN,Orang,21.0,40.0,11.0,0.0,1.0,4.0,0,Kerentanan Relatif Rendah
+127.0,Jawa Tengah,2023.0,KABUPATEN PEMALANG,Orang,23.0,6.0,18.0,0.0,0.0,2.0,0,Kerentanan Relatif Rendah
+128.0,Jawa Tengah,2023.0,KABUPATEN TEGAL,Orang,8.0,15.0,7.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+129.0,Jawa Tengah,2023.0,KABUPATEN BREBES,Orang,10.0,3.0,7.0,0.0,0.0,2.0,0,Kerentanan Relatif Rendah
+130.0,Jawa Tengah,2023.0,KOTA MAGELANG,Orang,4.0,5.0,5.0,0.0,1.0,3.0,0,Kerentanan Relatif Rendah
+131.0,Jawa Tengah,2023.0,KOTA SURAKARTA,Orang,9.0,17.0,14.0,0.0,0.0,9.0,0,Kerentanan Relatif Rendah
+132.0,Jawa Tengah,2023.0,KOTA SALATIGA,Orang,13.0,7.0,4.0,0.0,0.0,1.0,0,Kerentanan Relatif Rendah
+133.0,Jawa Tengah,2023.0,KOTA SEMARANG,Orang,79.0,33.0,26.0,1.0,1.0,17.0,1,Kerentanan Tinggi
+134.0,Jawa Tengah,2023.0,KOTA PEKALONGAN,Orang,10.0,13.0,4.0,1.0,0.0,7.0,0,Kerentanan Relatif Rendah
+135.0,Jawa Tengah,2023.0,KOTA TEGAL,Orang,8.0,7.0,5.0,0.0,0.0,1.0,0,Kerentanan Relatif Rendah
+136.0,Jawa Barat,2023.0,KABUPATEN BOGOR,Orang,25.0,28.0,7.0,0.0,0.0,2.0,0,Kerentanan Relatif Rendah
+137.0,Jawa Barat,2023.0,KABUPATEN SUKABUMI,Orang,22.0,10.0,21.0,1.0,26.0,1.0,3,Prioritas TPPO
+138.0,Jawa Barat,2023.0,KABUPATEN CIANJUR,Orang,17.0,34.0,14.0,1.0,5.0,2.0,0,Kerentanan Relatif Rendah
+139.0,Jawa Barat,2023.0,KABUPATEN BANDUNG,Orang,15.0,17.0,10.0,0.0,1.0,4.0,0,Kerentanan Relatif Rendah
+140.0,Jawa Barat,2023.0,KABUPATEN GARUT,Orang,11.0,13.0,11.0,0.0,0.0,1.0,0,Kerentanan Relatif Rendah
+141.0,Jawa Barat,2023.0,KABUPATEN TASIKMALAYA,Orang,14.0,2.0,13.0,0.0,1.0,1.0,0,Kerentanan Relatif Rendah
+142.0,Jawa Barat,2023.0,KABUPATEN CIAMIS,Orang,0.0,1.0,2.0,1.0,0.0,0.0,0,Kerentanan Relatif Rendah
+143.0,Jawa Barat,2023.0,KABUPATEN KUNINGAN,Orang,14.0,8.0,5.0,0.0,0.0,1.0,0,Kerentanan Relatif Rendah
+144.0,Jawa Barat,2023.0,KABUPATEN CIREBON,Orang,10.0,10.0,9.0,1.0,1.0,1.0,0,Kerentanan Relatif Rendah
+145.0,Jawa Barat,2023.0,KABUPATEN MAJALENGKA,Orang,1.0,1.0,2.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+146.0,Jawa Barat,2023.0,KABUPATEN SUMEDANG,Orang,20.0,1.0,1.0,0.0,1.0,0.0,0,Kerentanan Relatif Rendah
+147.0,Jawa Barat,2023.0,KABUPATEN INDRAMAYU,Orang,5.0,1.0,3.0,3.0,0.0,0.0,0,Kerentanan Relatif Rendah
+148.0,Jawa Barat,2023.0,KABUPATEN SUBANG,Orang,18.0,3.0,7.0,0.0,2.0,0.0,0,Kerentanan Relatif Rendah
+149.0,Jawa Barat,2023.0,KABUPATEN PURWAKARTA,Orang,4.0,10.0,3.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+150.0,Jawa Barat,2023.0,KABUPATEN KARAWANG,Orang,30.0,17.0,12.0,1.0,0.0,6.0,0,Kerentanan Relatif Rendah
+151.0,Jawa Barat,2023.0,KABUPATEN BEKASI,Orang,73.0,67.0,28.0,7.0,3.0,4.0,1,Kerentanan Tinggi
+152.0,Jawa Barat,2023.0,KABUPATEN BANDUNG BARAT,Orang,20.0,15.0,9.0,0.0,0.0,3.0,0,Kerentanan Relatif Rendah
+153.0,Jawa Barat,2023.0,KABUPATEN PANGANDARAN,Orang,2.0,0.0,0.0,0.0,0.0,7.0,0,Kerentanan Relatif Rendah
+154.0,Jawa Barat,2023.0,KOTA BOGOR,Orang,2.0,23.0,4.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+155.0,Jawa Barat,2023.0,KOTA SUKABUMI,Orang,8.0,10.0,1.0,2.0,1.0,0.0,0,Kerentanan Relatif Rendah
+156.0,Jawa Barat,2023.0,KOTA BANDUNG,Orang,96.0,180.0,50.0,7.0,1.0,71.0,2,Kerentanan Sangat Tinggi
+157.0,Jawa Barat,2023.0,KOTA CIREBON,Orang,2.0,1.0,0.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+158.0,Jawa Barat,2023.0,KOTA BEKASI,Orang,6.0,6.0,1.0,1.0,0.0,2.0,0,Kerentanan Relatif Rendah
+159.0,Jawa Barat,2023.0,KOTA DEPOK,Orang,65.0,54.0,11.0,1.0,0.0,20.0,1,Kerentanan Tinggi
+160.0,Jawa Barat,2023.0,KOTA CIMAHI,Orang,7.0,7.0,2.0,1.0,0.0,2.0,0,Kerentanan Relatif Rendah
+161.0,Jawa Barat,2023.0,KOTA TASIKMALAYA,Orang,1.0,4.0,2.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+162.0,Jawa Barat,2023.0,KOTA BANJAR,Orang,1.0,2.0,0.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+163.0,Jawa Timur,2023.0,KABUPATEN PACITAN,Orang,0.0,0.0,0.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+164.0,Jawa Timur,2023.0,KABUPATEN PONOROGO,Orang,2.0,3.0,0.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+165.0,Jawa Timur,2023.0,KABUPATEN TRENGGALEK,Orang,5.0,3.0,1.0,0.0,0.0,4.0,0,Kerentanan Relatif Rendah
+166.0,Jawa Timur,2023.0,KABUPATEN TULUNGAGUNG,Orang,3.0,6.0,3.0,1.0,1.0,1.0,0,Kerentanan Relatif Rendah
+167.0,Jawa Timur,2023.0,KABUPATEN BLITAR,Orang,10.0,13.0,4.0,1.0,0.0,3.0,0,Kerentanan Relatif Rendah
+168.0,Jawa Timur,2023.0,KABUPATEN KEDIRI,Orang,16.0,1.0,3.0,0.0,0.0,1.0,0,Kerentanan Relatif Rendah
+169.0,Jawa Timur,2023.0,KABUPATEN MALANG,Orang,20.0,34.0,14.0,1.0,5.0,10.0,1,Kerentanan Tinggi
+170.0,Jawa Timur,2023.0,KABUPATEN LUMAJANG,Orang,3.0,5.0,2.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+171.0,Jawa Timur,2023.0,KABUPATEN JEMBER,Orang,15.0,65.0,27.0,0.0,0.0,3.0,1,Kerentanan Tinggi
+172.0,Jawa Timur,2023.0,KABUPATEN BANYUWANGI,Orang,78.0,11.0,8.0,4.0,0.0,3.0,1,Kerentanan Tinggi
+173.0,Jawa Timur,2023.0,KABUPATEN BONDOWOSO,Orang,7.0,2.0,1.0,0.0,0.0,5.0,0,Kerentanan Relatif Rendah
+174.0,Jawa Timur,2023.0,KABUPATEN SITUBONDO,Orang,27.0,7.0,6.0,1.0,4.0,7.0,0,Kerentanan Relatif Rendah
+175.0,Jawa Timur,2023.0,KABUPATEN PROBOLINGGO,Orang,5.0,4.0,0.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+176.0,Jawa Timur,2023.0,KABUPATEN PASURUAN,Orang,13.0,1.0,4.0,3.0,4.0,2.0,0,Kerentanan Relatif Rendah
+177.0,Jawa Timur,2023.0,KABUPATEN SIDOARJO,Orang,41.0,65.0,11.0,2.0,0.0,27.0,1,Kerentanan Tinggi
+178.0,Jawa Timur,2023.0,KABUPATEN MOJOKERTO,Orang,23.0,6.0,1.0,2.0,0.0,4.0,0,Kerentanan Relatif Rendah
+179.0,Jawa Timur,2023.0,KABUPATEN JOMBANG,Orang,7.0,2.0,1.0,0.0,0.0,5.0,0,Kerentanan Relatif Rendah
+180.0,Jawa Timur,2023.0,KABUPATEN NGANJUK,Orang,12.0,25.0,4.0,1.0,0.0,9.0,0,Kerentanan Relatif Rendah
+181.0,Jawa Timur,2023.0,KABUPATEN MADIUN,Orang,2.0,0.0,4.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+182.0,Jawa Timur,2023.0,KABUPATEN MAGETAN,Orang,2.0,3.0,1.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+183.0,Jawa Timur,2023.0,KABUPATEN NGAWI,Orang,6.0,1.0,2.0,0.0,0.0,2.0,0,Kerentanan Relatif Rendah
+184.0,Jawa Timur,2023.0,KABUPATEN BOJONEGORO,Orang,3.0,3.0,2.0,0.0,0.0,4.0,0,Kerentanan Relatif Rendah
+185.0,Jawa Timur,2023.0,KABUPATEN TUBAN,Orang,11.0,0.0,1.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+186.0,Jawa Timur,2023.0,KABUPATEN LAMONGAN,Orang,4.0,3.0,1.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+187.0,Jawa Timur,2023.0,KABUPATEN GRESIK,Orang,49.0,32.0,3.0,0.0,0.0,7.0,1,Kerentanan Tinggi
+188.0,Jawa Timur,2023.0,KABUPATEN BANGKALAN,Orang,4.0,3.0,7.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+189.0,Jawa Timur,2023.0,KABUPATEN SAMPANG,Orang,6.0,2.0,4.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+190.0,Jawa Timur,2023.0,KABUPATEN PAMEKASAN,Orang,23.0,2.0,6.0,1.0,0.0,9.0,0,Kerentanan Relatif Rendah
+191.0,Jawa Timur,2023.0,KABUPATEN SUMENEP,Orang,3.0,4.0,2.0,0.0,0.0,2.0,0,Kerentanan Relatif Rendah
+192.0,Jawa Timur,2023.0,KOTA KEDIRI,Orang,5.0,2.0,0.0,0.0,0.0,1.0,0,Kerentanan Relatif Rendah
+193.0,Jawa Timur,2023.0,KOTA BLITAR,Orang,0.0,0.0,0.0,0.0,0.0,1.0,0,Kerentanan Relatif Rendah
+194.0,Jawa Timur,2023.0,KOTA MALANG,Orang,12.0,11.0,4.0,1.0,0.0,3.0,0,Kerentanan Relatif Rendah
+195.0,Jawa Timur,2023.0,KOTA PROBOLINGGO,Orang,14.0,7.0,3.0,0.0,1.0,3.0,0,Kerentanan Relatif Rendah
+196.0,Jawa Timur,2023.0,KOTA PASURUAN,Orang,3.0,4.0,2.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+197.0,Jawa Timur,2023.0,KOTA MOJOKERTO,Orang,6.0,3.0,0.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+198.0,Jawa Timur,2023.0,KOTA MADIUN,Orang,2.0,2.0,1.0,0.0,0.0,2.0,0,Kerentanan Relatif Rendah
+199.0,Jawa Timur,2023.0,KOTA SURABAYA,Orang,63.0,29.0,14.0,0.0,0.0,16.0,1,Kerentanan Tinggi
+200.0,Jawa Timur,2023.0,KOTA BATU,Orang,7.0,11.0,2.0,3.0,0.0,7.0,0,Kerentanan Relatif Rendah
+201.0,Jawa Tengah,2024.0,KABUPATEN CILACAP,Orang,4.0,0.0,4.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+202.0,Jawa Tengah,2024.0,KABUPATEN BANYUMAS,Orang,29.0,40.0,20.0,2.0,0.0,6.0,1,Kerentanan Tinggi
+203.0,Jawa Tengah,2024.0,KABUPATEN PURBALINGGA,Orang,11.0,7.0,8.0,0.0,0.0,1.0,0,Kerentanan Relatif Rendah
+204.0,Jawa Tengah,2024.0,KABUPATEN BANJARNEGARA,Orang,5.0,8.0,6.0,0.0,0.0,1.0,0,Kerentanan Relatif Rendah
+205.0,Jawa Tengah,2024.0,KABUPATEN KEBUMEN,Orang,43.0,10.0,14.0,0.0,0.0,1.0,0,Kerentanan Relatif Rendah
+206.0,Jawa Tengah,2024.0,KABUPATEN PURWOREJO,Orang,13.0,22.0,7.0,0.0,0.0,4.0,0,Kerentanan Relatif Rendah
+207.0,Jawa Tengah,2024.0,KABUPATEN WONOSOBO,Orang,17.0,46.0,10.0,0.0,0.0,11.0,1,Kerentanan Tinggi
+208.0,Jawa Tengah,2024.0,KABUPATEN MAGELANG,Orang,16.0,36.0,8.0,0.0,0.0,2.0,0,Kerentanan Relatif Rendah
+209.0,Jawa Tengah,2024.0,KABUPATEN BOYOLALI,Orang,6.0,7.0,4.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+210.0,Jawa Tengah,2024.0,KABUPATEN KLATEN,Orang,2.0,2.0,3.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+211.0,Jawa Tengah,2024.0,KABUPATEN SUKOHARJO,Orang,46.0,7.0,11.0,0.0,0.0,3.0,0,Kerentanan Relatif Rendah
+212.0,Jawa Tengah,2024.0,KABUPATEN WONOGIRI,Orang,1.0,4.0,0.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+213.0,Jawa Tengah,2024.0,KABUPATEN KARANGANYAR,Orang,9.0,3.0,6.0,0.0,0.0,3.0,0,Kerentanan Relatif Rendah
+214.0,Jawa Tengah,2024.0,KABUPATEN SRAGEN,Orang,4.0,0.0,6.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+215.0,Jawa Tengah,2024.0,KABUPATEN GROBOGAN,Orang,1.0,0.0,0.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+216.0,Jawa Tengah,2024.0,KABUPATEN BLORA,Orang,3.0,2.0,4.0,1.0,0.0,2.0,0,Kerentanan Relatif Rendah
+217.0,Jawa Tengah,2024.0,KABUPATEN REMBANG,Orang,5.0,2.0,2.0,0.0,0.0,1.0,0,Kerentanan Relatif Rendah
+218.0,Jawa Tengah,2024.0,KABUPATEN PATI,Orang,6.0,3.0,2.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+219.0,Jawa Tengah,2024.0,KABUPATEN KUDUS,Orang,5.0,0.0,0.0,0.0,0.0,1.0,0,Kerentanan Relatif Rendah
+220.0,Jawa Tengah,2024.0,KABUPATEN JEPARA,Orang,13.0,8.0,3.0,0.0,0.0,2.0,0,Kerentanan Relatif Rendah
+221.0,Jawa Tengah,2024.0,KABUPATEN DEMAK,Orang,22.0,3.0,5.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+222.0,Jawa Tengah,2024.0,KABUPATEN SEMARANG,Orang,66.0,17.0,5.0,1.0,0.0,0.0,1,Kerentanan Tinggi
+223.0,Jawa Tengah,2024.0,KABUPATEN TEMANGGUNG,Orang,4.0,7.0,1.0,1.0,0.0,1.0,0,Kerentanan Relatif Rendah
+224.0,Jawa Tengah,2024.0,KABUPATEN KENDAL,Orang,14.0,3.0,2.0,0.0,0.0,2.0,0,Kerentanan Relatif Rendah
+225.0,Jawa Tengah,2024.0,KABUPATEN BATANG,Orang,6.0,1.0,1.0,0.0,0.0,1.0,0,Kerentanan Relatif Rendah
+226.0,Jawa Tengah,2024.0,KABUPATEN PEKALONGAN,Orang,14.0,30.0,4.0,0.0,1.0,1.0,0,Kerentanan Relatif Rendah
+227.0,Jawa Tengah,2024.0,KABUPATEN PEMALANG,Orang,10.0,4.0,6.0,0.0,0.0,2.0,0,Kerentanan Relatif Rendah
+228.0,Jawa Tengah,2024.0,KABUPATEN TEGAL,Orang,11.0,8.0,5.0,0.0,0.0,2.0,0,Kerentanan Relatif Rendah
+229.0,Jawa Tengah,2024.0,KABUPATEN BREBES,Orang,15.0,11.0,12.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+230.0,Jawa Tengah,2024.0,KOTA MAGELANG,Orang,9.0,24.0,2.0,0.0,0.0,11.0,0,Kerentanan Relatif Rendah
+231.0,Jawa Tengah,2024.0,KOTA SURAKARTA,Orang,15.0,18.0,7.0,0.0,0.0,6.0,0,Kerentanan Relatif Rendah
+232.0,Jawa Tengah,2024.0,KOTA SALATIGA,Orang,10.0,4.0,10.0,2.0,0.0,2.0,0,Kerentanan Relatif Rendah
+233.0,Jawa Tengah,2024.0,KOTA SEMARANG,Orang,113.0,46.0,25.0,0.0,1.0,19.0,1,Kerentanan Tinggi
+234.0,Jawa Tengah,2024.0,KOTA PEKALONGAN,Orang,8.0,8.0,3.0,0.0,0.0,3.0,0,Kerentanan Relatif Rendah
+235.0,Jawa Tengah,2024.0,KOTA TEGAL,Orang,7.0,16.0,9.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+236.0,Jawa Barat,2024.0,KABUPATEN BOGOR,Orang,20.0,19.0,9.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+237.0,Jawa Barat,2024.0,KABUPATEN SUKABUMI,Orang,29.0,11.0,19.0,0.0,15.0,1.0,0,Kerentanan Relatif Rendah
+238.0,Jawa Barat,2024.0,KABUPATEN CIANJUR,Orang,16.0,13.0,9.0,1.0,1.0,3.0,0,Kerentanan Relatif Rendah
+239.0,Jawa Barat,2024.0,KABUPATEN BANDUNG,Orang,17.0,13.0,17.0,1.0,1.0,1.0,0,Kerentanan Relatif Rendah
+240.0,Jawa Barat,2024.0,KABUPATEN GARUT,Orang,8.0,6.0,14.0,1.0,0.0,2.0,0,Kerentanan Relatif Rendah
+241.0,Jawa Barat,2024.0,KABUPATEN TASIKMALAYA,Orang,3.0,1.0,4.0,0.0,0.0,1.0,0,Kerentanan Relatif Rendah
+242.0,Jawa Barat,2024.0,KABUPATEN CIAMIS,Orang,3.0,3.0,5.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+243.0,Jawa Barat,2024.0,KABUPATEN KUNINGAN,Orang,5.0,7.0,7.0,0.0,0.0,3.0,0,Kerentanan Relatif Rendah
+244.0,Jawa Barat,2024.0,KABUPATEN CIREBON,Orang,17.0,25.0,13.0,7.0,1.0,3.0,1,Kerentanan Tinggi
+245.0,Jawa Barat,2024.0,KABUPATEN MAJALENGKA,Orang,6.0,0.0,2.0,0.0,0.0,1.0,0,Kerentanan Relatif Rendah
+246.0,Jawa Barat,2024.0,KABUPATEN SUMEDANG,Orang,3.0,7.0,4.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+247.0,Jawa Barat,2024.0,KABUPATEN INDRAMAYU,Orang,15.0,8.0,9.0,2.0,0.0,2.0,0,Kerentanan Relatif Rendah
+248.0,Jawa Barat,2024.0,KABUPATEN SUBANG,Orang,12.0,9.0,13.0,0.0,2.0,3.0,0,Kerentanan Relatif Rendah
+249.0,Jawa Barat,2024.0,KABUPATEN PURWAKARTA,Orang,8.0,39.0,10.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+250.0,Jawa Barat,2024.0,KABUPATEN KARAWANG,Orang,14.0,6.0,5.0,1.0,0.0,1.0,0,Kerentanan Relatif Rendah
+251.0,Jawa Barat,2024.0,KABUPATEN BEKASI,Orang,24.0,31.0,35.0,1.0,3.0,7.0,1,Kerentanan Tinggi
+252.0,Jawa Barat,2024.0,KABUPATEN BANDUNG BARAT,Orang,17.0,13.0,4.0,0.0,1.0,4.0,0,Kerentanan Relatif Rendah
+253.0,Jawa Barat,2024.0,KABUPATEN PANGANDARAN,Orang,4.0,0.0,3.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+254.0,Jawa Barat,2024.0,KOTA BOGOR,Orang,15.0,24.0,8.0,0.0,0.0,5.0,0,Kerentanan Relatif Rendah
+255.0,Jawa Barat,2024.0,KOTA SUKABUMI,Orang,10.0,26.0,3.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+256.0,Jawa Barat,2024.0,KOTA BANDUNG,Orang,63.0,130.0,37.0,1.0,0.0,39.0,2,Kerentanan Sangat Tinggi
+257.0,Jawa Barat,2024.0,KOTA CIREBON,Orang,1.0,1.0,0.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+258.0,Jawa Barat,2024.0,KOTA BEKASI,Orang,38.0,34.0,29.0,0.0,0.0,16.0,1,Kerentanan Tinggi
+259.0,Jawa Barat,2024.0,KOTA DEPOK,Orang,53.0,32.0,17.0,0.0,0.0,4.0,1,Kerentanan Tinggi
+260.0,Jawa Barat,2024.0,KOTA CIMAHI,Orang,19.0,16.0,7.0,3.0,0.0,12.0,1,Kerentanan Tinggi
+261.0,Jawa Barat,2024.0,KOTA TASIKMALAYA,Orang,14.0,1.0,3.0,0.0,0.0,1.0,0,Kerentanan Relatif Rendah
+262.0,Jawa Barat,2024.0,KOTA BANJAR,Orang,4.0,0.0,2.0,0.0,0.0,1.0,0,Kerentanan Relatif Rendah
+263.0,Jawa Timur,2024.0,KABUPATEN PACITAN,Orang,0.0,0.0,0.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+264.0,Jawa Timur,2024.0,KABUPATEN PONOROGO,Orang,4.0,2.0,2.0,0.0,0.0,5.0,0,Kerentanan Relatif Rendah
+265.0,Jawa Timur,2024.0,KABUPATEN TRENGGALEK,Orang,2.0,10.0,3.0,2.0,0.0,7.0,0,Kerentanan Relatif Rendah
+266.0,Jawa Timur,2024.0,KABUPATEN TULUNGAGUNG,Orang,6.0,4.0,1.0,0.0,0.0,2.0,0,Kerentanan Relatif Rendah
+267.0,Jawa Timur,2024.0,KABUPATEN BLITAR,Orang,8.0,16.0,8.0,2.0,44.0,1.0,3,Prioritas TPPO
+268.0,Jawa Timur,2024.0,KABUPATEN KEDIRI,Orang,9.0,2.0,7.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+269.0,Jawa Timur,2024.0,KABUPATEN MALANG,Orang,20.0,16.0,18.0,2.0,1.0,10.0,1,Kerentanan Tinggi
+270.0,Jawa Timur,2024.0,KABUPATEN LUMAJANG,Orang,0.0,0.0,0.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+271.0,Jawa Timur,2024.0,KABUPATEN JEMBER,Orang,13.0,85.0,52.0,1.0,1.0,11.0,1,Kerentanan Tinggi
+272.0,Jawa Timur,2024.0,KABUPATEN BANYUWANGI,Orang,21.0,2.0,11.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+273.0,Jawa Timur,2024.0,KABUPATEN BONDOWOSO,Orang,5.0,1.0,2.0,0.0,0.0,3.0,0,Kerentanan Relatif Rendah
+274.0,Jawa Timur,2024.0,KABUPATEN SITUBONDO,Orang,22.0,19.0,4.0,1.0,3.0,5.0,0,Kerentanan Relatif Rendah
+275.0,Jawa Timur,2024.0,KABUPATEN PROBOLINGGO,Orang,2.0,3.0,2.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+276.0,Jawa Timur,2024.0,KABUPATEN PASURUAN,Orang,12.0,6.0,6.0,0.0,1.0,1.0,0,Kerentanan Relatif Rendah
+277.0,Jawa Timur,2024.0,KABUPATEN SIDOARJO,Orang,38.0,64.0,14.0,1.0,0.0,12.0,1,Kerentanan Tinggi
+278.0,Jawa Timur,2024.0,KABUPATEN MOJOKERTO,Orang,4.0,0.0,3.0,0.0,0.0,1.0,0,Kerentanan Relatif Rendah
+279.0,Jawa Timur,2024.0,KABUPATEN JOMBANG,Orang,34.0,11.0,16.0,0.0,0.0,27.0,1,Kerentanan Tinggi
+280.0,Jawa Timur,2024.0,KABUPATEN NGANJUK,Orang,3.0,1.0,0.0,0.0,0.0,2.0,0,Kerentanan Relatif Rendah
+281.0,Jawa Timur,2024.0,KABUPATEN MADIUN,Orang,5.0,0.0,1.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+282.0,Jawa Timur,2024.0,KABUPATEN MAGETAN,Orang,9.0,5.0,5.0,0.0,0.0,2.0,0,Kerentanan Relatif Rendah
+283.0,Jawa Timur,2024.0,KABUPATEN NGAWI,Orang,4.0,0.0,2.0,0.0,0.0,1.0,0,Kerentanan Relatif Rendah
+284.0,Jawa Timur,2024.0,KABUPATEN BOJONEGORO,Orang,6.0,5.0,5.0,0.0,0.0,4.0,0,Kerentanan Relatif Rendah
+285.0,Jawa Timur,2024.0,KABUPATEN TUBAN,Orang,2.0,2.0,0.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+286.0,Jawa Timur,2024.0,KABUPATEN LAMONGAN,Orang,0.0,0.0,0.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+287.0,Jawa Timur,2024.0,KABUPATEN GRESIK,Orang,76.0,18.0,9.0,0.0,0.0,6.0,1,Kerentanan Tinggi
+288.0,Jawa Timur,2024.0,KABUPATEN BANGKALAN,Orang,11.0,3.0,9.0,1.0,0.0,0.0,0,Kerentanan Relatif Rendah
+289.0,Jawa Timur,2024.0,KABUPATEN SAMPANG,Orang,6.0,0.0,3.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+290.0,Jawa Timur,2024.0,KABUPATEN PAMEKASAN,Orang,9.0,1.0,3.0,0.0,0.0,2.0,0,Kerentanan Relatif Rendah
+291.0,Jawa Timur,2024.0,KABUPATEN SUMENEP,Orang,15.0,17.0,2.0,0.0,0.0,3.0,0,Kerentanan Relatif Rendah
+292.0,Jawa Timur,2024.0,KOTA KEDIRI,Orang,6.0,6.0,0.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+293.0,Jawa Timur,2024.0,KOTA BLITAR,Orang,0.0,1.0,1.0,0.0,0.0,1.0,0,Kerentanan Relatif Rendah
+294.0,Jawa Timur,2024.0,KOTA MALANG,Orang,18.0,13.0,5.0,0.0,12.0,3.0,0,Kerentanan Relatif Rendah
+295.0,Jawa Timur,2024.0,KOTA PROBOLINGGO,Orang,10.0,9.0,5.0,0.0,0.0,3.0,0,Kerentanan Relatif Rendah
+296.0,Jawa Timur,2024.0,KOTA PASURUAN,Orang,2.0,3.0,2.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+297.0,Jawa Timur,2024.0,KOTA MOJOKERTO,Orang,1.0,1.0,1.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+298.0,Jawa Timur,2024.0,KOTA MADIUN,Orang,7.0,2.0,0.0,0.0,0.0,0.0,0,Kerentanan Relatif Rendah
+299.0,Jawa Timur,2024.0,KOTA SURABAYA,Orang,43.0,28.0,20.0,2.0,1.0,14.0,1,Kerentanan Tinggi
+300.0,Jawa Timur,2024.0,KOTA BATU,Orang,4.0,10.0,2.0,1.0,0.0,5.0,0,Kerentanan Relatif Rendah
