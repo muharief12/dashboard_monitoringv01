@@ -79,40 +79,65 @@ df_filtered = df[(df['Tahun'].isin(selected_tahun)) & (df['Provinsi'].isin(selec
 
 # --- KOMPONEN 1: RINGKASAN EKSEKUTIF (KPI CARDS) ---
 # Tujuan: Gambaran singkat total beban kasus nasional/regional
-st.subheader("📌 Ringkasan Eksekutif Case Load")
+st.subheader("📌Ringkasan Data Jenis Kekerasan Perempuan Dewasa (Kasus)")
 total_seluruh_kasus = df_filtered['Total Kasus'].sum()
 
 # Layout untuk angka besar (Single Value Cards)
 cols_kpi = st.columns(len(kategori_kekerasan) + 1)
-cols_kpi[0].metric(label="Total Seluruh Kasus", value=f"{total_seluruh_kasus:,}")
+cols_kpi[0].metric(label="Total", value=f"{total_seluruh_kasus:,}")
 
 for i, kat in enumerate(kategori_kekerasan):
     total_kat = df_filtered[kat].sum()
-    cols_kpi[i+1].metric(label=f"Kasus {kat}", value=f"{total_kat:,}")
+    cols_kpi[i+1].metric(label=f"{kat}", value=f"{total_kat:,}")
 
 st.markdown("---")
 
 # Layout dua kolom untuk Tren Waktu dan Perbandingan Kategori
 col_left, col_right = st.columns(2)
 
+# with col_left:
+#     # --- KOMPONEN 2: ANALISIS TREN WAKTU (LINE CHART) ---
+#     # Tujuan: Mengidentifikasi tren naik/turun/stagnan
+#     st.subheader("📈 Analisis Tren Waktu Perkembangan Kasus")
+#     df_tren = df_filtered.groupby('Tahun')[kategori_kekerasan].sum().reset_index()
+    
+#     # Transformasi data agar sesuai untuk grafik multi-line
+#     df_tren_melted = df_tren.melt(id_vars='Tahun', var_name='Jenis Kekerasan', value_name='Jumlah Kasus')
+    
+#     fig_line = px.line(df_tren_melted, x='Tahun', y='Jumlah Kasus', color='Jenis Kekerasan', markers=True,
+#                        title="Tren Kasus Berdasarkan Jenis Kekerasan Tahunan")
+#     fig_line.update_layout(xaxis_type='category')
+#     st.plotly_chart(fig_line, use_container_width=True)
+
 with col_left:
-    # --- KOMPONEN 2: ANALISIS TREN WAKTU (LINE CHART) ---
-    # Tujuan: Mengidentifikasi tren naik/turun/stagnan
-    st.subheader("📈 Analisis Tren Waktu Perkembangan Kasus")
+    # --- KOMPONEN 2: ANALISIS TREN WAKTU (BAR CHART) ---
+    # Tujuan: Mengidentifikasi perbandingan volume kasus antar-tahun secara diskrit
+    st.subheader("📊 Perkembangan Kasus Tahunan")
     df_tren = df_filtered.groupby('Tahun')[kategori_kekerasan].sum().reset_index()
     
-    # Transformasi data agar sesuai untuk grafik multi-line
+    # Transformasi data dari format wide ke long agar sesuai untuk pengelompokan Plotly
     df_tren_melted = df_tren.melt(id_vars='Tahun', var_name='Jenis Kekerasan', value_name='Jumlah Kasus')
     
-    fig_line = px.line(df_tren_melted, x='Tahun', y='Jumlah Kasus', color='Jenis Kekerasan', markers=True,
-                       title="Tren Kasus Berdasarkan Jenis Kekerasan Tahunan")
-    fig_line.update_layout(xaxis_type='category')
-    st.plotly_chart(fig_line, use_container_width=True)
+    # Mengubah px.line menjadi px.bar dengan pengelompokan warna berdasarkan Jenis Kekerasan
+    fig_bar_tren = px.bar(
+        df_tren_melted, 
+        x='Tahun', 
+        y='Jumlah Kasus', 
+        color='Jenis Kekerasan',
+        barmode='group',  # Membuat batang berjejer berdampingan per tahun
+        title="Perbandingan Kasus Berdasarkan Jenis Kekerasan (2022-2024)",
+        color_discrete_sequence=px.colors.qualitative.Set1  # Opsional: Menyelaraskan palet warna pastel
+    )
+    
+    # Memastikan sumbu X bertipe kategori agar tidak muncul angka desimal (seperti 2022.5)
+    fig_bar_tren.update_layout(xaxis_type='category')
+    
+    st.plotly_chart(fig_bar_tren, use_container_width=True)
 
 with col_right:
     # --- KOMPONEN 3: PERBANDINGAN JENIS KEKERASAN (DONUT CHART) ---
     # Tujuan: Mengetahui jenis kekerasan yang mendominasi (Persentase Kasus)
-    st.subheader("🍩 Proporsi & Perbandingan Jenis Kekerasan")
+    st.subheader("🍩 Proporsi Jenis Kekerasan")
     df_proporsi = df_filtered[kategori_kekerasan].sum().reset_index()
     df_proporsi.columns = ['Jenis Kekerasan', 'Total']
     
@@ -128,7 +153,7 @@ col_map, col_pareto = st.columns(2)
 
 with col_map:
         # --- KOMPONEN 4: SEBARAN GEOGRAFIS / SPASIAL (GEOMAP) ---
-        st.subheader("🗺️ Sebaran Geografis Beban Kasus (Geomap)")
+        st.subheader("🗺️ Sebaran Geografis Tingkat Kasus")
 
         # 1. PAKSA data Excel menjadi HURUF BESAR SEMUA agar sinkron dengan GeoJSON Anda
         df_filtered['Provinsi'] = df_filtered['Provinsi'].astype(str).str.strip().str.upper()
@@ -163,7 +188,7 @@ with col_map:
 with col_pareto:
     # --- KOMPONEN 5: PERINGKAT WILAYAH / ANALISIS PARETO (HORIZONTAL BAR CHART) ---
     # Tujuan: Mengidentifikasi Top Kabupaten/Kota untuk efisiensi monitoring
-    st.subheader("📊 Peringkat Wilayah (Analisis Pareto)")
+    st.subheader("📊 Peringkat Wilayah")
     df_pareto = df_filtered.groupby('Kabupaten/Kota')['Total Kasus'].sum().sort_values(ascending=True).reset_index()
     
     fig_pareto = px.bar(df_pareto, x='Total Kasus', y='Kabupaten/Kota', orientation='h',
@@ -177,3 +202,9 @@ with col_pareto:
 st.markdown("---")
 st.subheader("🔍 Detail Datatabular Terfilter")
 st.dataframe(df_filtered, use_container_width=True)
+
+# ==========================================
+# 6. Footer
+# ==========================================
+st.markdown("---")
+st.caption("Sumber: Data Kekerasan pada Perempuan Dewasa berdasarkan Jenisnya oleh BPS dari Tahun 2022-2024 ")
